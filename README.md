@@ -41,7 +41,7 @@ started, you could try something like the following.
 ```python
 >>> import primefield
 >>> k = PrimeField(7) # create the field of characteristic 7
->>> a = k[6]    # field elements are denoted as residues of integers modulo 7
+>>> a = k[6]    # field elements can be accessed as residues of integers
 >>> b = k[-2]
 >>> print(b) # show the residue class of b
 '[5]_7'
