@@ -1,6 +1,6 @@
 # Introduction
 
-The `prime-field` module is a python module for dealing with finite
+The `primefield` module is a python module for dealing with finite
 fields of prime characteristic. 
 
 Roughly speaking a "field" is a mathematical structure where consistent
