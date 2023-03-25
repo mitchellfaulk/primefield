@@ -46,20 +46,22 @@ started, you could try something like the following.
 >>> print(b) # show the residue class of b
 '[5]_7'
 >>> c = a/b # perform the division of a and b within the field
->>> c
+>>> print(c)
 '[4]_7'
 >>> d = ~b # access the inverse of the nonzero element b
+>>> print(d)
 '[3]_7'
 >>> e = a ** 99 # raise a to the power 99
+>>> print(e)
 '[6]_7'
 >>> e == a # check whether two elements are equal
-'True'
+True
 >>> repr(a) # access the (canonical) representation of a
 'Element(value=6, characteristic=7)'
 >>> str(a) # access the (canonical) string representation of a as a residue class
 '[6]_7'
 >>> a == eval(repr(a)) # the representation is chosen so that it is compatible with evaluation
-'True' 
+True 
 ```
 
 # Future work
